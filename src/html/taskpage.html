@@ -1,0 +1,46 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks - IE</title>
+    <link rel="icon" type="" href="/Proyecto2/src/img/logo-favicon.png">
+
+</head>
+<body>
+    <link rel="stylesheet" href="../css/taskpage.css">
+
+   <div class="pageTittle">
+    <img src="/img/14.png" alt="ieLogo" srcset="" class="logo">
+    <h2>Administracion</h2>
+    <button><a href="../html/homepage.html" id="btnB">⥢ Register</a></button>
+   </div> 
+
+   <div class="boxTittle">
+    <p>Organizar Tareas</p>
+    <input type="text" id="taskCreator" placeholder="Eventos">
+    <input type="text" id="taskPriority" placeholder="Fecha">
+    <br>    
+    <select id="selector">
+        <option value="">Seleccionar</option>
+        <option value="Tarea"> Tarea</option>
+        <option value="Evento">Evento</option>
+    </select>
+    <br>
+    <button id="btnS">Guardar</button>
+   </div>
+
+    <div id="containerT">
+        <div id="taskList">
+            <h3>Tasks</h3>
+        </div>
+    
+        <div id="eventList">
+            <h3>Events</h3>
+        </div>
+    </div>
+    
+
+<script src="../js/taskpage.js"></script>
+</body>
+</html>

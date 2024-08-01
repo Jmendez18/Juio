@@ -1,0 +1,69 @@
+      
+body{
+        
+        background-color: #e7e7e7;
+    }
+
+    .pageTittle{
+        background-color: rgb(13, 143, 22);
+        border-radius: 15px;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        border-radius: 15px;  
+        .logo{
+            width: 150px;
+            height: auto;
+        } 
+        #btnB{
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+    .boxTittle{
+        background-color: rgba(255, 255, 255, 0.404);
+        text-align: center;
+
+        box-shadow: 0 20px 40px -5px rgba(80, 92, 103, 0.24);
+        border-radius: 15px;
+    }
+    #containerT {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+    #taskList{
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-color: rgba(0, 0, 0, 0.489);
+        background-color: rgb(44, 132, 78);
+        border-radius: 15px;
+        color: white;
+    }
+    #eventList{
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-color: rgba(0, 0, 0, 0.489);
+        background-color: rgb(44, 132, 62); 
+        border-radius: 15px;
+        color: white;
+
+    }
+
+    @media  (max-width: 768px) {
+        .boxTittle{
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        .containerT{
+            min-height: 300px;
+            min-width: fit-content;
+        }
+        
+    }
